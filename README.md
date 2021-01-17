@@ -33,7 +33,7 @@ Fail:
 1. username and password dont need to be valid and API will pull back data
 2. code. access_token are all identical.
 3. Password validation not possible in this api.
-4. Brcypt - would be beneficial to mask password in API database.
+4. Brcypt - would be beneficial to mask password in API database -required salt if this was expected for the test.
 
 Example of data response
 
