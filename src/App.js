@@ -17,7 +17,7 @@ const App = () => {
 
   // user manually refesher browser after login
    useEffect(() => {
-          const logUser = localStorage.getItem("user");
+           const logUser = sessionStorage.getItem("userid");
           // console.log(logUser);
           if (logUser ) {
           
