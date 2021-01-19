@@ -34,7 +34,7 @@ const Login = () => {
                                 // id okay
                                      grantAuth(); // person authorised
                                 // console.log("redirect");
-                                
+                                sessionStorage.setItem('userid',token);
                                     <Redirect to="/dashboard" />
                      
                             
