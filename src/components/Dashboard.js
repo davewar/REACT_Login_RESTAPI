@@ -44,8 +44,8 @@ const Dashboard = () => {
            stopAuth() // turn off auth
            setToken(null) // reset 
 
-                //clear local
-           localStorage.removeItem('user');
+                //clear
+             sessionStorage.removeItem('userid');
 
            //redirect
             history.push('/home');
